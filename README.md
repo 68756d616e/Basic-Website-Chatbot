@@ -1,4 +1,5 @@
-# Basic-Website-Chatbot
+# Basic-Website-Chatbot 
+Finance related
 A basic chatbot for a website using python.
 
 The chatbot will be able to provide the following.
