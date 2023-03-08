@@ -42,6 +42,65 @@ D - Accounting and tax service
         print() # Space
         if list_of_services == 'a' or list_of_services == 'A':
             print("You chose Investment services")
+            print("Here is a list of our financial services")
+            list_of_financial_services = int(input("""
+1 - Brokerage services: Brokerage services are provided by firms that help investors buy and sell stocks, bonds, mutual funds, and other securities.
+
+2 - Robo-advisory services: These are online investment platforms that use algorithms to provide investment advice and portfolio management services.
+
+3 - Investment banking services: Investment banks provide services such as underwriting, mergers and acquisitions, and financial advisory services.
+
+4 - Wealth management services: Wealth management firms provide services to high net worth individuals and families, including financial planning, investment management, and tax planning.
+
+5 - Financial planning services: Financial planners help individuals and families create financial plans, set investment goals, and make investment decisions.
+
+6 - Exchange-traded funds (ETFs): ETFs are a type of investment fund that trades on an exchange like a stock and provides exposure to a basket of securities.
+
+7 - Mutual funds: Mutual funds pool money from investors to invest in a diversified portfolio of securities.
+
+8 - Hedge funds: Hedge funds are private investment funds that use a variety of strategies to generate high returns for investors.
+
+9 - Real estate investment trusts (REITs): REITs are investment vehicles that own and operate income-producing real estate properties.
+
+10 - Venture capital services: Venture capital firms provide financing to startup companies and early-stage businesses with high growth potential.
+
+Please enter a number here :"""))
+            
+            if list_of_financial_services == '1':
+                print()
+            
+            elif list_of_financial_services == '2':
+                print()
+
+            elif list_of_financial_services == '3':
+                print()
+
+            elif list_of_financial_services == '3':
+                print()
+
+            elif list_of_financial_services == '4':
+                print()
+
+            elif list_of_financial_services == '5':
+                print()
+
+            elif list_of_financial_services == '6':
+                print()
+
+            elif list_of_financial_services == '7':
+                print()
+
+            elif list_of_financial_services == '8':
+                print()
+                
+            elif list_of_financial_services == '9':
+                print()
+
+            elif list_of_financial_services == '10':
+                print()
+
+            else:
+                print("Please choose a number from 1 - 10")
 
         elif list_of_services == 'b' or list_of_services == 'B':
             print("You chose Financial planning services")
