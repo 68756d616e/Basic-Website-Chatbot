@@ -36,7 +36,7 @@ A - Investment services
 B - Financial planning services
 C - Financial education
 D - Accounting and tax service
-- Back
+- Back  
 """) # List of generic finance products and services
         
         print() # Space
@@ -66,41 +66,47 @@ D - Accounting and tax service
 
 Please enter a number here :"""))
             
-            if list_of_financial_services == '1':
-                print()
+            if list_of_financial_services == 1:
+                print("You chose Brokerage services\n")
+                print("""A brokerage is a financial intermediary that facilitates the buying and selling of financial assets, such as stocks, bonds, 
+commodities, currencies, and derivatives, on behalf of clients. A brokerage firm typically employs licensed professionals known as brokers or 
+financial advisors who are authorized to buy and sell these assets on behalf of their clients. \n""")
+                # Create services and list them below
             
-            elif list_of_financial_services == '2':
-                print()
+            elif list_of_financial_services == 2:
+                print("You chose Robo-advisory services")
+                print("""Robo-advisory services are a type of financial advisory service that use algorithms and technology to 
+provide automated investment advice and portfolio management to clients. Robo-advisors typically use computer algorithms to 
+analyze client data, such as investment goals, risk tolerance, and financial situation, and then recommend a diversified investment 
+portfolio that is tailored to the client's needs. \n""")
 
-            elif list_of_financial_services == '3':
-                print()
+            elif list_of_financial_services == 3:
+                print("You chose Investment banking services")
 
-            elif list_of_financial_services == '3':
-                print()
+            elif list_of_financial_services == 4:
+                print("You chose Wealth management services")
 
-            elif list_of_financial_services == '4':
-                print()
+            elif list_of_financial_services == 5:
+                print("You chose Financial planning services")
 
-            elif list_of_financial_services == '5':
-                print()
+            elif list_of_financial_services == 6:
+                print("You chose Exchange-traded funds (ETFs)")
 
-            elif list_of_financial_services == '6':
-                print()
+            elif list_of_financial_services == 7:
+                print("You chose Mutual funds")
 
-            elif list_of_financial_services == '7':
-                print()
-
-            elif list_of_financial_services == '8':
-                print()
+            elif list_of_financial_services == 8:
+                print("You chose Hedge funds")
                 
-            elif list_of_financial_services == '9':
-                print()
+            elif list_of_financial_services == 9:
+                print("You chose Real estate investment trusts (REITs)")
 
-            elif list_of_financial_services == '10':
-                print()
+            elif list_of_financial_services == 10:
+                print("You chose Venture capital services")
 
             else:
                 print("Please choose a number from 1 - 10")
+                print(list_of_financial_services)
 
         elif list_of_services == 'b' or list_of_services == 'B':
             print("You chose Financial planning services")
