@@ -82,18 +82,23 @@ portfolio that is tailored to the client's needs. \n""")
 
             elif list_of_financial_services == 3:
                 print("You chose Investment banking services")
+                print()
 
             elif list_of_financial_services == 4:
                 print("You chose Wealth management services")
+                print()
 
             elif list_of_financial_services == 5:
                 print("You chose Financial planning services")
+                print()
 
             elif list_of_financial_services == 6:
                 print("You chose Exchange-traded funds (ETFs)")
+                print()
 
             elif list_of_financial_services == 7:
                 print("You chose Mutual funds")
+                print()
 
             elif list_of_financial_services == 8:
                 print("You chose Hedge funds")
@@ -102,7 +107,7 @@ portfolio that is tailored to the client's needs. \n""")
                 print("You chose Real estate investment trusts (REITs)")
 
             elif list_of_financial_services == 10:
-                print("You chose Venture capital services")
+                print("You chose Venture capital services")     
 
             else:
                 print("Please choose a number from 1 - 10")
