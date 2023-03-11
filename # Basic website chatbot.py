@@ -82,32 +82,57 @@ portfolio that is tailored to the client's needs. \n""")
 
             elif list_of_financial_services == 3:
                 print("You chose Investment banking services")
-                print()
+                print("""Investment banking is a type of financial service that provides various services to clients such as companies, 
+governments, and institutional investors. Investment banks help clients to raise capital, make financial decisions, and carry out complex financial transactions.\n """)
 
             elif list_of_financial_services == 4:
                 print("You chose Wealth management services")
-                print()
+                print(""" Wealth management is a specialized financial advisory service that helps individuals and families with significant wealth to manage 
+their assets and achieve their financial goals. Wealth management services are typically offered by banks, investment firms, and specialized wealth management companies.
+
+The primary goal of wealth management is to provide comprehensive financial planning and investment management services to high 
+net worth individuals (HNWI) and ultra-high net worth individuals (UHNWI). Wealth management services typically include \n""")
 
             elif list_of_financial_services == 5:
                 print("You chose Financial planning services")
-                print()
-
+                print("""Financial planning is the process of setting and achieving financial goals through the management of one's financial resources. 
+It involves assessing one's current financial situation, identifying goals, and developing a plan to achieve those goals. Financial planning is essential 
+for individuals and families to ensure that they are making the most of their financial resources, and that they are prepared for future financial needs. \n""")
+    
             elif list_of_financial_services == 6:
                 print("You chose Exchange-traded funds (ETFs)")
-                print()
+                print(""" Exchange-traded funds (ETFs) are investment funds that are traded on stock exchanges like individual stocks. 
+ETFs are designed to track the performance of an underlying index, such as the S&P 500, or a specific sector, commodity, or currency. 
+ETFs allow investors to diversify their portfolio and gain exposure to a wide range of assets with lower costs than traditional mutual funds.
+
+ETFs are similar to mutual funds in that they pool money from investors to invest in a portfolio of assets, but they differ in how they are bought and sold.
+ETFs trade on an exchange like individual stocks, and their prices fluctuate throughout the trading day, while mutual funds are priced at the end of each trading day. 
+Additionally, ETFs typically have lower management fees and expenses than mutual funds. \n""")
 
             elif list_of_financial_services == 7:
                 print("You chose Mutual funds")
-                print()
+                print(""" Mutual funds are a type of investment vehicle that pools money from many investors to invest in a portfolio of assets, such as stocks, 
+bonds, and other securities. The portfolio is managed by professional money managers who make investment decisions on behalf of the investors. \n""")
 
             elif list_of_financial_services == 8:
                 print("You chose Hedge funds")
+                print(""" Hedge funds are private investment funds that are typically open only to a limited number of accredited or institutional investors. 
+Hedge funds aim to generate high returns through a variety of investment strategies, including long and short positions in equities, bonds, derivatives, and other assets.
+
+Hedge funds are managed by professional portfolio managers who use a range of investment techniques, such as leverage, short-selling, and derivatives, to achieve their investment goals. 
+Hedge funds are known for their flexibility and can invest in a wide range of assets and markets, including stocks, bonds, commodities, and currencies.\n """)
                 
             elif list_of_financial_services == 9:
                 print("You chose Real estate investment trusts (REITs)")
+                print(""" Real estate investment trusts (REITs) are investment vehicles that allow investors to invest in a portfolio of income-producing 
+real estate properties, such as apartment buildings, office buildings, shopping centers, and other commercial properties. REITs are typically publicly traded 
+companies that own and manage a diversified portfolio of real estate assets. \n """)
 
             elif list_of_financial_services == 10:
-                print("You chose Venture capital services")     
+                print("You chose Venture capital services")
+                print(""" Venture capital services involve the provision of financing, support, and strategic guidance to early-stage or high-growth companies with 
+high potential for growth and profitability. Venture capital firms provide equity financing to companies in exchange for an ownership stake and involvement in their 
+management and decision-making processes. \n """)     
 
             else:
                 print("Please choose a number from 1 - 10")
