@@ -136,14 +136,52 @@ management and decision-making processes. \n """)
 
             else:
                 print("Please choose a number from 1 - 10")
-                print(list_of_financial_services)
+                print(list_of_financial_services) # The services may be provided later
 
         elif list_of_services == 'b' or list_of_services == 'B':
             print("You chose Financial planning services")
-
+            print("""Please find a list of our Financial Services
+Retirement Planning
+Investment Planning
+Tax Planning
+Estate Planning
+Insurance Planning
+Debt Management
+Cash Flow Planning
+College Planning
+Risk Management
+Business Planning
+Wealth Management
+Budgeting and Savings Planning
+Charitable Giving Planning
+Real Estate Planning
+Special Needs Planning
+Financial Counseling and Coaching
+Asset Protection Planning. 
+Each service is unavailable at the moment!""") # Create additional if etc functions for the services
+            
         elif list_of_services == 'c' or list_of_services == 'C':
             print("You chose Financial education")
-
+            print("""Please find the following
+Budgeting and Personal Finance Management
+Credit and Debt Management
+Investing Basics
+Retirement Planning
+Understanding the Stock Market
+Real Estate Investing
+Insurance and Risk Management
+Tax Planning and Preparation
+Small Business Finance
+Financial Planning for Families
+Estate Planning
+Financial Literacy for Children and Young Adults
+Financial Fraud Awareness and Prevention
+Understanding Economic Indicators and Trends
+International Finance and Currency Exchange
+Behavioral Finance and Decision Making
+Financial Markets and Trading
+Cryptocurrency and Blockchain Technology.""") # Create additional if etc functions for the services
+            
         elif list_of_services == 'd' or list_of_services == 'D':
             print("You chose Accounting and tax service")
             
