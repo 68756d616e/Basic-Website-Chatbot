@@ -184,6 +184,15 @@ Cryptocurrency and Blockchain Technology.""") # Create additional if etc functio
             
         elif list_of_services == 'd' or list_of_services == 'D':
             print("You chose Accounting and tax service")
+            print("""
+Bookkeeping
+Tax Preparation
+Financial Statements
+Payroll Processing
+Audit Services
+Financial Planning and Analysis
+Tax Consulting
+Forensic Accounting """)
             
         elif list_of_services == 'Back' or list_of_services == 'back':
             print(user_question)
