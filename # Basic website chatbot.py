@@ -192,7 +192,7 @@ Payroll Processing
 Audit Services
 Financial Planning and Analysis
 Tax Consulting
-Forensic Accounting """)
+Forensic Accounting """) # Create the answers for the questions
             
         elif list_of_services == 'Back' or list_of_services == 'back':
             print(user_question)
@@ -201,12 +201,31 @@ Forensic Accounting """)
             print() # ...
             break
 
-    elif a == 'b' or a == 'B':
+    elif user_question == 'b' or user_question == 'B':
         print("You chose B - Investment advice  ")
-        a= input()
+        print("""
+1 - Define your investment goals: Before making any investment, it's essential to know what you want to achieve from it. 
+Set clear and realistic investment objectives that are aligned with your financial goals and risk appetite.
+
+2 - Diversify your portfolio: Diversification is key to reducing investment risk. 
+Spread your investment across different asset classes, such as stocks, bonds, real estate, and commodities.
+
+3 - Consider your risk tolerance: Understand your risk tolerance level and invest accordingly. 
+If you're risk-averse, invest in less volatile assets like bonds, while if you're more risk-tolerant, you may consider investing in high-growth stocks.
+
+4 - Invest for the long-term: Investing is a long-term game. 
+Don't get swayed by short-term market volatility and focus on your long-term investment goals.
+
+5- Keep fees low: High fees can eat into your investment returns over time. 
+Be mindful of fees and expenses associated with your investments and opt for low-cost investment options.
+
+6- Seek professional advice: Consider seeking professional financial advice from a qualified financial advisor or investment 
+professional to help you make informed investment decisions. """)
+        
+        a = 0 # Placeholder
         
         if a == 'a' or a == 'A':
-            print()
+            print() 
 
         elif a == 'a' or a == 'A':
             print()
