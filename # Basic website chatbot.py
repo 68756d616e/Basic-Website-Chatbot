@@ -224,8 +224,8 @@ professional to help you make informed investment decisions. """)
         
         a = 0 # Placeholder
         
-        if a == 'a' or a == 'A':
-            print() 
+        if user_question == 'c' or a == 'C':
+            print("You chose C - Educational resources") 
 
         elif a == 'a' or a == 'A':
             print()
