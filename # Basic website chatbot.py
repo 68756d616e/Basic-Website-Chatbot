@@ -226,22 +226,49 @@ professional to help you make informed investment decisions. """)
         
         if user_question == 'c' or a == 'C':
             print("You chose C - Educational resources") 
+            print("""
+- Investopedia - This website offers a wide range of educational resources on finance, including articles, tutorials, and videos. 
+Topics include personal finance, investing, and financial planning.
 
-        elif a == 'a' or a == 'A':
-            print()
+- Khan Academy - This website offers a variety of free courses on finance and economics, 
+from introductory to advanced levels.
 
-        elif a == 'a' or a == 'A':
-            print()
+- Coursera - This online learning platform offers a variety of courses and specializations in finance, 
+many of which are created by top universities and financial institutions.
 
-        elif a == 'a' or a == 'A':
-            print()
+- Udemy - This online learning platform offers a variety of courses on personal finance, investing, and financial planning.
+The Balance - This website offers a wealth of educational resources on personal finance, including articles, calculators, and tools.
+
+- Financial Industry Regulatory Authority (FINRA) - FINRA offers a variety of educational 
+resources on investing and financial planning, including online courses, webinars, and investor alerts.
+
+- National Endowment for Financial Education (NEFE) - NEFE offers a variety of educational 
+resources on personal finance, including online courses, webinars, and publications.
+
+- Money Under 30 - This website offers educational resources and tools for young adults to 
+learn about personal finance, credit, and investing.
+
+- Personal Finance for Dummies - This book by Eric Tyson offers a comprehensive guide to 
+personal finance for beginners.
+
+- The Intelligent Investor - This book by Benjamin Graham is a classic guide to 
+value investing and a must-read for anyone interested in investing. """)
             
-        elif a == 'a' or a == 'A':
-            print()
-        
-        else:
-            print() # ...
-            break
+#            if a == 'a' or a == 'A':
+#                print()
+
+#            elif a == 'a' or a == 'A':
+#                print()
+
+#            elif a == 'a' or a == 'A':
+#                print()
+                
+#            elif a == 'a' or a == 'A':
+#                print()
+            
+#        else:
+#            print() # ...
+#            break
     
     elif b == 'c' or b == 'C':
         print("You chose C - Educational resources ")
