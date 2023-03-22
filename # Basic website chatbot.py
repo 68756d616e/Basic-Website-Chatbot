@@ -23,7 +23,7 @@ while True:
 A - Provide information about financial products and services   
 B - Offer investment advice  
 C - Provide educational resources  
-D - service inquiries
+D - Service inquiries
 Please enter the letter :          """)
 
     # User choice provided
@@ -252,7 +252,7 @@ learn about personal finance, credit, and investing.
 personal finance for beginners.
 
 - The Intelligent Investor - This book by Benjamin Graham is a classic guide to 
-value investing and a must-read for anyone interested in investing. """)
+value investing and a must-read for anyone interested in investing. """) # Create ouputs for each statement above
             
 #            if a == 'a' or a == 'A':
 #                print()
@@ -269,33 +269,63 @@ value investing and a must-read for anyone interested in investing. """)
 #        else:
 #            print() # ...
 #            break
-    
-    elif b == 'c' or b == 'C':
-        print("You chose C - Educational resources ")
-        b = input()
+    # Potential duplicate
+
+    # elif b == 'c' or b == 'C':
+    #     print("You chose C - Educational resources ")
+    #     b = input()
         
-        if b == 'a' or b == 'A':
-            print()
+    #     if b == 'a' or b == 'A':
+    #         print()
 
-        elif b == 'a' or b == 'A':
-            print()
+    #     elif b == 'a' or b == 'A':
+    #         print()
 
-        elif b == 'a' or b == 'A':
-            print()
+    #     elif b == 'a' or b == 'A':
+    #         print()
 
-        elif b == 'a' or b == 'A':
-            print()
+    #     elif b == 'a' or b == 'A':
+    #         print()
             
-        elif b == 'a' or b == 'A':
-            print()
+    #     elif b == 'a' or b == 'A':
+    #         print()
         
-        else:
-            print() # ...
-            break
+    #     else:
+    #         print() # ...
+    #         break
     
     elif c == 'd' or c == 'D':
         print("You chose D - Service inquiries")
-        c = input()
+        c = input("""
+Account opening: Many financial websites allow users to open a new account online, whether it's a savings account, 
+checking account, credit card account, or investment account.
+
+Investment advice: Financial websites may offer personalized investment advice based on users' 
+financial goals, risk tolerance, and other factors.
+
+Trading platform: Some financial websites may offer a trading platform where users can buy 
+and sell stocks, bonds, or other securities.
+
+Loan applications: Financial websites may allow users to apply for 
+personal loans, mortgages, or other types of credit.
+
+Credit score monitoring: Many financial websites offer credit score 
+monitoring services that allow users to track their credit score and receive alerts about any changes or potential fraud.
+
+Retirement planning: Financial websites may offer retirement 
+planning tools and resources, such as calculators to help users estimate their retirement savings needs.
+
+Insurance quotes: Some financial websites may provide users 
+with quotes for various types of insurance, such as auto insurance, home insurance, or life insurance.
+
+Budgeting tools: Financial websites may offer budgeting tools 
+to help users track their spending, create a budget, and save money.
+
+Tax preparation services: Some financial websites may offer 
+tax preparation services or resources to help users file their taxes.
+
+Financial education resources: Financial websites may provide educational 
+resources such as articles, videos, and webinars on topics such as investing, budgeting, and personal finance. """)
 
         if c == 'a' or c == 'A':
             print()
