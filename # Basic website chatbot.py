@@ -327,24 +327,24 @@ tax preparation services or resources to help users file their taxes.
 Financial education resources: Financial websites may provide educational 
 resources such as articles, videos, and webinars on topics such as investing, budgeting, and personal finance. """)
 
-        if c == 'a' or c == 'A':
-            print()
+        # if c == 'a' or c == 'A':
+        #     print()
 
-        elif c == 'a' or c == 'A':
-            print()
+        # elif c == 'a' or c == 'A':
+        #     print()
 
-        elif c == 'a' or c == 'A':
-            print()
+        # elif c == 'a' or c == 'A':
+        #     print()
 
-        elif c == 'a' or c == 'A':
-            print()
+        # elif c == 'a' or c == 'A':
+        #     print()
             
-        elif c == 'a' or c == 'A':
-            print()
+        # elif c == 'a' or c == 'A':
+        #     print()
         
-        else:
-            print() # ...
-            break
+        # else:
+        #     print() # ...
+        #     break
 
     else:
         print("Please choose A, B, C or D") # Repeat of initial question
